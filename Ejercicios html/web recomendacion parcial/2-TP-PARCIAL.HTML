@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendación: Black Mirror</title>
+    <link rel="stylesheet" href="Estilo2.css">
+    
+</head> 
+<body>
+    <header>
+        <h1>Black Mirror ¿Porque deberia verla?</h1>
+        <nav>
+            <ul>
+                <li><a href="#sinopsis">Sinopsis</a></li>
+                <li><a href="#trailers">Trailers</a></li>
+                <li><a href="#opiniones">Opiniones</a></li>
+                <li><a href="#formulario">¡Dinos tu opinión!</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sinopsis">
+        <h2 class="section-heading">Sinopsis</h2>
+        <div class="sinopsis-content">
+            <div class="sinopsis-text">
+                <p>"Black Mirror", creada por Charlie Brooker, es una serie de antología que se ha ganado una sólida reputación por su enfoque provocativo y perturbador de los efectos de la tecnología en la sociedad contemporánea. Cada episodio es independiente y presenta una historia única, pero todos comparten un tema central: la interacción entre la tecnología y la humanidad, y cómo esta relación puede llevar a consecuencias inesperadas y a menudo sombrías.</p>
+            </div>
+            <div class="sinopsis-image">
+                <img src="backmirror-scaled.jpg" alt="Imagen ilustrativa de la serie Black Mirror">
+            </div>
+        </div>
+    </section>
+    
+    <section id="trailers">
+        <h2 class="section-heading">Trailers</h2>
+        <div class="iframe-container">
+
+            <iframe  src="https://www.youtube.com/embed/nOuebtOSzME" title="Trailer 1 - Temporada 3" allowfullscreen></iframe>
+
+        </div>
+
+        <div class="iframe-container" >
+        <iframe  src="https://www.youtube.com/embed/5jY1ecibLYo" title="Trailer 2 - Temporada 6" allowfullscreen></iframe>
+        </div>
+        
+        
+    </section>
+    
+    <section id="opiniones">
+        <h2 class="section-heading">Opiniones</h2>
+        <p>¡Lee las opiniones de otros espectadores y comparte las tuyas en las redes sociales!</p>
+        <div class="opinion">
+            <div class="opinion-content">
+                
+                <a href="https://twitter.com/hashtag/BlackMirror" target="_blank"><img src="twitter.png" alt="Logo de Twitter"></a>
+                <a href="https://www.facebook.com/BlackMirrorNetflix" target="_blank"><img src="facebook.png" alt="Logo de Facebook"></a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="formulario">
+        <h2 class="section-heading" >¡Dinos que te parecio la serie!</h2>
+        <div class="form-container">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+            
+                <label>¿Qué temporada  te ha gustado más?</label><br>
+                <input type="radio" id="temporada1" name="temporada" value="1">
+                <label for="temporada1">Temporada 1</label><br>
+                <input type="radio" id="temporada2" name="temporada" value="2">
+                <label for="temporada2">Temporada 2</label><br>
+                <input type="radio" id="temporada3" name="temporada" value="3">
+                <label for="temporada3">Temporada 3</label><br>
+            
+                <label>Selecciona los temas que más te interesaron sobre la serie:</label><br>
+                <input type="checkbox" id="tecnologia" name="tema" value="tecnologia">
+                <label for="tecnologia">Tecnología</label><br>
+                <input type="checkbox" id="sociedad" name="tema" value="sociedad">
+                <label for="sociedad">Sociedad</label><br>
+                <input type="checkbox" id="futuro" name="tema" value="futuro">
+                <label for="futuro">Futuro</label><br>
+            
+                <label for="comentario">Comentario:</label><br>
+                <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br>
+            
+                <label for="calificacion">Calificación (1-5):</label>
+                <input type="number" id="calificacion" name="calificacion" min="1" max="5" required><br>
+            
+                <button type="submit">Enviar</button>
+
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Recomendación Black Mirror</p>
+    </footer>
+</body>
+</html>
